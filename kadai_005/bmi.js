@@ -1,6 +1,5 @@
-let height;
-height = "68";
-let weight = "1.7";
-let bmi = "BMI";
-BMI = console.log(height / (weight * weight));
+
+const weight = 68;
+const height = 1.7;
+const bmi = weight / (height * height);
 console.log(height / (weight * weight));
